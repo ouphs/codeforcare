@@ -1,7 +1,7 @@
-html, body {
+/*html, body {
 	margin: 0;
 	padding: 0;
-}
+}*/
 
 nav {
 	/*border: 1px solid black;*/
@@ -16,10 +16,13 @@ ul li {
 
 .header {
 	background-image: url("http://1.bp.blogspot.com/_6rCH2WGqEpo/TElYgnlDfLI/AAAAAAAAACc/pqJsyLnHHoM/s1600/DSC07297.JPG");
+	background-size: cover;
 	background-position: -100px -375px;
 	height: 300px;
 	width: 100%;
 	margin-top: 40px;
+	margin: 0;
+	padding: 0;
 }
 button {
 	font-size: 16px;
@@ -32,11 +35,13 @@ button {
 p img {
 	height: 150px;
 	width: 150px; 
+	float: left;
+	margin: 10px;
 }
 div {
-    -webkit-column-count: 4; 
-    -moz-column-count: 4; 
-    column-count: 4;
+    -webkit-column-count: 2; 
+    -moz-column-count: 2; 
+    column-count: 2;
     display: inline-block;
     margin-top: 30px;
 }
