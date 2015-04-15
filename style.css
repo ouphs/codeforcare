@@ -25,6 +25,18 @@ font-family: Arial, Helvetica;
     width:100%;
     margin:0px 0px;
 <<<<<<< HEAD
+    padding: 0px;
+    
+	
+}
+
+
+
+#main div img#port {
+  width: 24%;
+  height: 175px;
+=======
+<<<<<<< HEAD
     
 	
 }
@@ -36,6 +48,7 @@ font-family: Arial, Helvetica;
     padding: 0px;
     
 	
+>>>>>>> master
 }
 #img_cont{
 	background-color: green;
@@ -57,10 +70,14 @@ font-family: Arial, Helvetica;
 	padding:5px;
 	
 }
+<<<<<<< HEAD
+
+=======
 #main div img#port{
 	width: 20%;
 	
 }
+>>>>>>> master
 
 }
 #main div {
@@ -72,7 +89,10 @@ font-family: Arial, Helvetica;
 
 
 
+<<<<<<< HEAD
+=======
 >>>>>>> fb2350701a17ac39d423814d6ee2b391ce6dc5f1
+>>>>>>> master
 }
 nav
 {
@@ -95,10 +115,14 @@ margin-left: 1em;
 }
 
 <<<<<<< HEAD
+article#right{
+=======
+<<<<<<< HEAD
 /*article{
 =======
 article#right{
 >>>>>>> fb2350701a17ac39d423814d6ee2b391ce6dc5f1
+>>>>>>> master
 	width: 410px;
 	display:inline-block;
 	border-left: 1px solid #FFFFFF;
@@ -106,6 +130,8 @@ article#right{
     padding: 34px;;
     color:#FFFFFF;
 }
+<<<<<<< HEAD
+=======
 <<<<<<< HEAD
 article #no-go{
 	/*width: 410px;
@@ -130,13 +156,17 @@ p {
 	text-align: center;
 	color: #ffffff;
 =======
+>>>>>>> master
 article#left{
 	width: 410px;
 	display:inline-block;
 	line-height:1.5em;
     padding: 34px;;
     color:#FFFFFF;
+<<<<<<< HEAD
+=======
 >>>>>>> fb2350701a17ac39d423814d6ee2b391ce6dc5f1
+>>>>>>> master
 }
 header{
 	
@@ -155,6 +185,11 @@ header{
     display: inline;
     height: 53px;
 <<<<<<< HEAD
+    margin-left: 877px;
+    width: 144px;
+    margin-top: 1em;
+=======
+<<<<<<< HEAD
     margin-top: 10px;
     margin-left: 877px;
     width: 144px;
@@ -163,6 +198,7 @@ header{
     width: 144px;
     margin-top: 1em;
 >>>>>>> fb2350701a17ac39d423814d6ee2b391ce6dc5f1
+>>>>>>> master
 
 }
 #donate2 {
@@ -177,11 +213,17 @@ header{
 
 }
 <<<<<<< HEAD
+a:hover{
+	color:red;
+}
+=======
+<<<<<<< HEAD
 =======
 a:hover{
 	color:red;
 }
 >>>>>>> fb2350701a17ac39d423814d6ee2b391ce6dc5f1
+>>>>>>> master
 footer{
 	height: 80px;
 	background-color:#C9C8BD;
@@ -199,10 +241,13 @@ header img{
 	margin: 0px;
 }
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
 #plogo {
 	width: 50px;
 	margin: auto;
 =======
+>>>>>>> master
 header p {
 	color:#FFFFFF;
 	float:right;
@@ -255,7 +300,10 @@ div .pulse h1{
 		opacity: 0.7;	
 	}			
 }
+<<<<<<< HEAD
+=======
 #pic1 {
     background: url(http://www.un.org/News/dh/photos/large/2015/February/02-09-2015unicef.jpg);
 >>>>>>> fb2350701a17ac39d423814d6ee2b391ce6dc5f1
 }
+>>>>>>> master
