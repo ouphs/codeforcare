@@ -1,0 +1,208 @@
+/*This is the css for the about page style sheet this is an addition*/
+body, h1,h2,h3,h4,h5,h6, p, a, ul, li {
+margin: 0px;
+padding: 0px;
+font-family: Arial, Helvetica;
+
+}
+
+
+
+#container{
+
+	width: 1040px;
+	margin:0 auto;
+}
+#main{
+
+    
+    padding:1em;
+    background-color:#f04e23; 
+	
+}
+#main img{
+
+    width:100%;
+    margin:0px 0px;
+    padding: 0px;
+    
+	
+}
+
+
+
+#main div img#port {
+  width: 24%;
+  height: 175px;
+}
+#img_cont{
+	background-color: green;
+	width:100%;
+	padding:0px;
+
+}
+#img_cont1 img{
+	
+	margin: 0 auto;
+	float:left;
+	padding:5px;
+	
+}
+#img_cont2 img{
+	width:;
+	
+	float:left;
+	padding:5px;
+	
+}
+
+
+}
+#main div {
+ width:100%;
+ margin-left: 0px;
+ margin-right: 0px;
+
+
+
+
+
+}
+nav
+{
+	height: 20px;
+	width: 100%;
+	padding: 1em 0px;
+	background-color:#C9C8BD; 
+	border-top: 5px solid #FFFFFF ;
+}
+nav ul li a{
+	text-decoration: none;
+	color:#FFFFFF;
+}
+nav ul li{
+display: inline;
+margin-left: 1em;
+
+
+
+}
+
+article#right{
+	width: 410px;
+	display:inline-block;
+	border-left: 1px solid #FFFFFF;
+	line-height:1.5em;
+    padding: 34px;;
+    color:#FFFFFF;
+}
+article#left{
+	width: 410px;
+	display:inline-block;
+	line-height:1.5em;
+    padding: 34px;;
+    color:#FFFFFF;
+}
+header{
+	
+	background-color: #f04e23;
+	padding-top: 1em;
+
+}
+#border{
+	border-right:1px solid black;
+}
+
+#donate {
+	background-color:#C9C8BD;
+    color: #FFFFFF;
+    font-size: 14px;
+    display: inline;
+    height: 53px;
+    margin-left: 877px;
+    width: 144px;
+    margin-top: 1em;
+
+}
+#donate2 {
+	background-color:#f04e23;
+    color: #FFFFFF;
+    font-size: 14px;
+    display: inline;
+    height: 53px;
+    margin-left: 14px;
+    margin-top: 1.2em;
+    width: 144px;
+
+}
+a:hover{
+	color:red;
+}
+footer{
+	height: 80px;
+	background-color:#C9C8BD;
+}
+footer p{
+color: #FFFFFF;
+    float: right;
+    margin-right: 1em;
+    margin-top: 3.2em;
+
+}
+header img{
+	width: 100px;
+	padding:0px;
+	margin: 0px;
+}
+header p {
+	color:#FFFFFF;
+	float:right;
+	margin-top: -80px;
+	margin-right: 3em;
+	font-size: 40px;
+}
+div .pulse h1{
+	color:#FFFFFF;
+}
+
+
+.pulse{
+	animation-name: pulse;
+	-webkit-animation-name: pulse;	
+
+	animation-duration: 5.5s;	
+	-webkit-animation-duration: 5.5s;
+
+	animation-iteration-count: infinite;
+	-webkit-animation-iteration-count: infinite;
+}
+
+@keyframes pulse {
+	0% {
+		transform: scale(.5);
+		opacity: 0.7;		
+	}
+	50% {
+		transform: scale(1);
+		opacity: 1;	
+	}	
+	100% {
+		transform: scale(0.9);
+		opacity: 0.7;	
+	}			
+}
+
+@-webkit-keyframes pulse {
+	0% {
+		-webkit-transform: scale(0.95);
+		opacity: 0.7;		
+	}
+	50% {
+		-webkit-transform: scale(1);
+		opacity: 1;	
+	}	
+	100% {
+		-webkit-transform: scale(0.95);
+		opacity: 0.7;	
+	}			
+}
